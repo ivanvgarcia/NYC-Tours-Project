@@ -60,7 +60,7 @@
 
     <header class="header">
         <div class="header__logo-box">
-            <img src="assets/img/statue-of-liberty-white (1).png" alt="logo" class="header__logo">
+            <img srcset="assets/img/logo-white-1x.png 1x, assets/img/logo-white-2x.png 2x" alt="logo" class="header__logo">
         </div>
 
         <div class="header__text-box">
@@ -352,7 +352,13 @@
 
     <footer class="footer">
         <div class="footer__logo-box">
-            <img src="assets/img/statue-of-liberty-white (1).png" alt="full logo" class="footer__logo">
+
+            <picture class="footer__logo">
+                <source srcset="assets/img/logo-white-small-1x.png 1x, assets/img/logo-white-small-2x.png 2x" media="(max-width: 37.5em)">
+                <img srcset="assets/img/logo-white-1x.png 1x, assets/img/logo-white-2x.png 2x" alt="full logo">
+            </picture>
+
+            
         </div>
         <div class="row">
             <div class="col-1-of-2">
@@ -404,8 +410,8 @@
                     Amet cursus sit amet dictum. Donec adipiscing tristique risus nec feugiat in fermentum. Nibh mauris cursus
                     mattis molestie a iaculis at. Montes nascetur ridiculus mus mauris. Ac tortor vitae purus faucibus. Sodales
                     neque sodales ut etiam sit amet nisl purus.</p>
-                    <a href="#" class="btn btn--purple">Book now</a>
-                </div>
+                <a href="#" class="btn btn--purple">Book now</a>
+            </div>
         </div>
     </div>
 
