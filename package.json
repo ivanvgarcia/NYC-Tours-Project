@@ -12,5 +12,7 @@
     "node-sass": "^4.7.2",
     "postcss-cli-simple": "^1.0.4"
   },
-  "dependencies": {}
+  "dependencies": {
+    "hoek": "^5.0.3"
+  }
 }
